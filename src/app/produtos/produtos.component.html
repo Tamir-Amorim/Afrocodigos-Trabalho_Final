@@ -1,0 +1,46 @@
+<div class="produtos">
+  <!-- <button (click)="emiteMensagemDoFilhoParaOPai()">Emitir evento</button> -->
+
+  <!-- <h2>{{ posts }}</h2> -->
+<div class="teste">
+  <div class="colab" *ngFor="let post of posts">  
+
+      <div class="cliente"> <img src="../../assets/cliente.fw.png" alt="icone do cliente" width="80" height="80"> </div>
+       
+    <div>Nome:<h2 id="nome">{{ post.title.slice(0,8) }} </h2></div>
+      
+    <p id="cargo">Cargo:{{ post.body.slice(0,15) }}</p>
+  
+  </div>
+
+  </div>
+
+  <!-- <ul>
+    @for (produto of produtosCarrinho; track $index) {
+    <li>{{ produto.nome }}</li>
+    }
+  </ul> -->
+
+  <!-- <div [ngSwitch]="statusProduto">
+    <p *ngSwitchCase="'esgotado'">Produto esgotado</p>
+    <p *ngSwitchCase="'vencido'">Produto vencido</p>
+    <p *ngSwitchCase="'em promoção'">Produto em promoção</p>
+    <p *ngSwitchDefault>Em estoque</p>
+  </div> -->
+
+  <!-- Outra forma de fazer switch case -->
+   
+  <!-- @switch (statusProduto) { @case ('esgotado') {
+  <p>Produto esgotado</p>
+  } @case ('vencido') {
+  <p>Produto vencido</p>
+  } @case ('em promoção') {
+  <p>Produto em promoção</p>
+  } @default {
+  <p>Em estoque</p>
+  } } -->
+
+  
+
+  <!-- Outra forma de fazer o controle de mostrar ou esconder via if -->
+  

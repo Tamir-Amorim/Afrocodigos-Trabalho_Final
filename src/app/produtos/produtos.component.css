@@ -1,0 +1,61 @@
+
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+
+/*  */
+.special p {
+    background-color: #F5F5DF;
+    color: darkred;
+}
+
+.produtos {
+    
+    padding: 10px;
+    margin: 10px;
+        
+    
+    /* grid-template-columns: repeat(3,1fr); */
+    background-color: #F5F5DF;
+    /* background-image: image("../../assets/rodape.fw.png");   */
+    
+    
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+    /* margin: auto; */
+}
+
+
+
+.colab {
+    
+    min-height: 200px;
+    min-width: 200px; 
+    /* max-width: 150px;     */
+    border: 4px solid #535C9D;
+    border-radius: 8px;
+    padding: 10px 0px 10px 10px;
+    margin: 10px 10px ;
+        
+
+    
+    
+}
+
+.teste {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
